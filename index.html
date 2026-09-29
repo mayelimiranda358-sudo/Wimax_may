@@ -1,0 +1,1480 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WiMAX | Redes Inalámbricas</title>
+
+    <!-- Bootstrap CSS -->
+    <link 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet"
+    >
+
+    <!-- Bootstrap Icons -->
+    <link 
+        rel="stylesheet" 
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    >
+
+    <!-- Nuestro CSS -->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+<!-- =========================================================
+     BARRA DE NAVEGACIÓN
+========================================================= -->
+
+<nav class="navbar navbar-expand-lg navbar-dark navbar-wimax sticky-top">
+    <div class="container">
+
+        <a class="navbar-brand fw-bold" href="#inicio">
+            <i class="bi bi-broadcast-pin"></i> WiMAX
+        </a>
+
+        <button 
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#menu"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#que-es">¿Qué es?</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#historia">Historia</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#personajes">Personajes</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#cobertura">Cobertura</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#bolivia">Bolivia</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#empresas">Empresas</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#importancia">Importancia</a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- =========================================================
+     PORTADA
+========================================================= -->
+
+<header id="inicio" class="hero">
+
+    <div class="container">
+
+        <div class="row align-items-center min-vh-100">
+
+            <div class="col-lg-7">
+
+                <span class="badge rounded-pill text-bg-light mb-3">
+                    <i class="bi bi-wifi"></i> TECNOLOGÍA INALÁMBRICA
+                </span>
+
+                <h1 class="display-1 fw-bold">
+                    WI<span>MAX</span>
+                </h1>
+
+                <h2 class="fw-light">
+                    Conectando el mundo de forma inalámbrica
+                </h2>
+
+                <p class="lead mt-4">
+                    Una tecnología de banda ancha inalámbrica basada en
+                    el estándar IEEE 802.16, creada para proporcionar
+                    conectividad a largas distancias.
+                </p>
+
+                <div class="mt-4">
+
+                    <a href="#que-es" class="btn btn-light btn-lg me-2">
+                        <i class="bi bi-arrow-down-circle"></i>
+                        Conocer WiMAX
+                    </a>
+
+                    <a href="#historia" class="btn btn-outline-light btn-lg">
+                        <i class="bi bi-clock-history"></i>
+                        Ver historia
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-5 text-center mt-5 mt-lg-0">
+
+                <div class="wifi-illustration">
+
+                    <i class="bi bi-wifi"></i>
+
+                    <div class="signal signal-1"></div>
+                    <div class="signal signal-2"></div>
+                    <div class="signal signal-3"></div>
+
+                    <div class="planet">
+                        <i class="bi bi-globe-americas"></i>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- =========================================================
+     ¿QUÉ ES WIMAX?
+========================================================= -->
+
+<section id="que-es" class="section-padding">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>01 · CONCEPTO</span>
+
+            <h2>
+                ¿Qué es <strong>WiMAX</strong>?
+            </h2>
+
+            <p>
+                WiMAX significa <strong>Worldwide Interoperability for
+                Microwave Access</strong>. Es una tecnología de comunicación
+                inalámbrica de banda ancha basada en la familia de estándares
+                <strong>IEEE 802.16</strong>.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4 mt-4">
+
+            <div class="col-md-4">
+
+                <div class="info-card">
+
+                    <div class="icon-box">
+                        <i class="bi bi-wifi"></i>
+                    </div>
+
+                    <h4>Conexión inalámbrica</h4>
+
+                    <p>
+                        Permite transmitir información sin necesidad de
+                        utilizar cables entre los equipos conectados.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <div class="info-card">
+
+                    <div class="icon-box">
+                        <i class="bi bi-broadcast"></i>
+                    </div>
+
+                    <h4>Largas distancias</h4>
+
+                    <p>
+                        Fue diseñada para proporcionar cobertura de banda
+                        ancha en áreas mucho mayores que las de una red Wi-Fi
+                        convencional.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-4">
+
+                <div class="info-card">
+
+                    <div class="icon-box">
+                        <i class="bi bi-phone"></i>
+                    </div>
+
+                    <h4>Acceso fijo y móvil</h4>
+
+                    <p>
+                        Las diferentes versiones de IEEE 802.16 permitieron
+                        desarrollar soluciones de acceso fijo y posteriormente
+                        movilidad.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="definition-box mt-5">
+
+            <div class="row align-items-center">
+
+                <div class="col-md-2 text-center">
+                    <i class="bi bi-lightbulb-fill big-icon"></i>
+                </div>
+
+                <div class="col-md-10">
+
+                    <h4>
+                        En palabras sencillas...
+                    </h4>
+
+                    <p class="mb-0">
+                        WiMAX buscó llevar Internet de banda ancha mediante
+                        ondas de radio a zonas donde instalar grandes
+                        cantidades de cable podía ser difícil o costoso.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     HISTORIA
+========================================================= -->
+
+<section id="historia" class="section-padding section-gray">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>02 · HISTORIA</span>
+
+            <h2>
+                Historia y evolución de <strong>WiMAX</strong>
+            </h2>
+
+            <p>
+                WiMAX está relacionado directamente con la evolución
+                del estándar IEEE 802.16.
+            </p>
+
+        </div>
+
+
+        <!-- Línea del tiempo -->
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+
+                <div class="timeline-year">
+                    2001
+                </div>
+
+                <div class="timeline-content">
+
+                    <h4>
+                        <i class="bi bi-calendar-event"></i>
+                        Primer estándar IEEE 802.16
+                    </h4>
+
+                    <p>
+                        Se publicó la primera versión del estándar IEEE 802.16,
+                        orientada a redes inalámbricas de banda ancha.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-year">
+                    2003
+                </div>
+
+                <div class="timeline-content">
+
+                    <h4>
+                        <i class="bi bi-arrow-repeat"></i>
+                        IEEE 802.16a
+                    </h4>
+
+                    <p>
+                        Introdujo mejoras para facilitar despliegues
+                        inalámbricos de banda ancha en diferentes entornos.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-year">
+                    2004
+                </div>
+
+                <div class="timeline-content">
+
+                    <h4>
+                        <i class="bi bi-diagram-3"></i>
+                        IEEE 802.16-2004
+                    </h4>
+
+                    <p>
+                        Se consolidó una versión orientada principalmente
+                        al acceso inalámbrico fijo.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-year">
+                    2005
+                </div>
+
+                <div class="timeline-content">
+
+                    <h4>
+                        <i class="bi bi-phone"></i>
+                        IEEE 802.16e
+                    </h4>
+
+                    <p>
+                        Incorporó características para permitir movilidad,
+                        dando lugar al concepto de Mobile WiMAX.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Tabla -->
+
+        <div class="table-responsive mt-5">
+
+            <table class="table table-hover align-middle shadow-sm">
+
+                <thead>
+                    <tr>
+                        <th>Estándar</th>
+                        <th>Año</th>
+                        <th>Característica principal</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>
+                            <span class="badge bg-primary">
+                                IEEE 802.16
+                            </span>
+                        </td>
+
+                        <td>2001</td>
+
+                        <td>
+                            Primer estándar de banda ancha inalámbrica.
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <span class="badge bg-info text-dark">
+                                IEEE 802.16a
+                            </span>
+                        </td>
+
+                        <td>2003</td>
+
+                        <td>
+                            Mejoras para despliegues inalámbricos.
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <span class="badge bg-success">
+                                IEEE 802.16-2004
+                            </span>
+                        </td>
+
+                        <td>2004</td>
+
+                        <td>
+                            Acceso inalámbrico fijo.
+                        </td>
+                    </tr>
+
+
+                    <tr>
+                        <td>
+                            <span class="badge bg-warning text-dark">
+                                IEEE 802.16e
+                            </span>
+                        </td>
+
+                        <td>2005</td>
+
+                        <td>
+                            Incorporación de movilidad.
+                        </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     PERSONAJES Y ORGANIZACIONES
+========================================================= -->
+
+<section id="personajes" class="section-padding">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>03 · PERSONAJES</span>
+
+            <h2>
+                Organizaciones importantes
+            </h2>
+
+            <p>
+                El desarrollo y expansión de WiMAX involucró diferentes
+                organizaciones y empresas de tecnología.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4 mt-4">
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="organization-card">
+
+                    <div class="org-icon">
+                        <i class="bi bi-cpu"></i>
+                    </div>
+
+                    <h4>IEEE</h4>
+
+                    <p>
+                        Desarrolló la familia de estándares IEEE 802.16,
+                        sobre la cual se basa WiMAX.
+                    </p>
+
+                    <span class="badge bg-primary">
+                        Estándares
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="organization-card">
+
+                    <div class="org-icon">
+                        <i class="bi bi-globe"></i>
+                    </div>
+
+                    <h4>WiMAX Forum</h4>
+
+                    <p>
+                        Organización de la industria encargada de promover
+                        la interoperabilidad y certificación de productos
+                        WiMAX.
+                    </p>
+
+                    <span class="badge bg-info text-dark">
+                        Interoperabilidad
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="organization-card">
+
+                    <div class="org-icon">
+                        <i class="bi bi-microchip"></i>
+                    </div>
+
+                    <h4>Intel</h4>
+
+                    <p>
+                        Participó en el desarrollo y promoción de tecnologías
+                        relacionadas con WiMAX y dispositivos compatibles.
+                    </p>
+
+                    <span class="badge bg-success">
+                        Tecnología
+                    </span>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="organization-card">
+
+                    <div class="org-icon">
+                        <i class="bi bi-building"></i>
+                    </div>
+
+                    <h4>Fabricantes y operadores</h4>
+
+                    <p>
+                        Diferentes empresas desarrollaron equipos y redes
+                        comerciales basadas en WiMAX.
+                    </p>
+
+                    <span class="badge bg-warning text-dark">
+                        Industria
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     COBERTURA
+========================================================= -->
+
+<section id="cobertura" class="section-padding section-dark">
+
+    <div class="container">
+
+        <div class="section-title light">
+
+            <span>04 · COBERTURA</span>
+
+            <h2>
+                WiMAX alrededor del mundo 🌎
+            </h2>
+
+            <p>
+                WiMAX fue implementado en diferentes regiones mediante
+                redes fijas y móviles.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4 mt-4">
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="coverage-card">
+
+                    <i class="bi bi-globe-americas"></i>
+
+                    <h4>América</h4>
+
+                    <p>
+                        Se realizaron despliegues comerciales en países
+                        de América del Norte y América Latina.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="coverage-card">
+
+                    <i class="bi bi-globe-europe-africa"></i>
+
+                    <h4>Europa</h4>
+
+                    <p>
+                        Diferentes operadores utilizaron WiMAX para
+                        proporcionar acceso de banda ancha.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="coverage-card">
+
+                    <i class="bi bi-globe-asia-australia"></i>
+
+                    <h4>Asia</h4>
+
+                    <p>
+                        Países asiáticos desarrollaron redes y servicios
+                        basados en WiMAX.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-3">
+
+                <div class="coverage-card">
+
+                    <i class="bi bi-globe2"></i>
+
+                    <h4>África y Oriente Medio</h4>
+
+                    <p>
+                        También existieron proyectos y despliegues
+                        de banda ancha inalámbrica WiMAX.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="coverage-stat mt-5">
+
+            <div class="row text-center">
+
+                <div class="col-md-4">
+                    <i class="bi bi-broadcast"></i>
+                    <h3>Inalámbrica</h3>
+                    <p>Transmisión mediante ondas de radio.</p>
+                </div>
+
+                <div class="col-md-4">
+                    <i class="bi bi-signpost-2"></i>
+                    <h3>Larga distancia</h3>
+                    <p>Mayor alcance que una red Wi-Fi convencional.</p>
+                </div>
+
+                <div class="col-md-4">
+                    <i class="bi bi-router"></i>
+                    <h3>Banda ancha</h3>
+                    <p>Diseñada para transportar datos a alta velocidad.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     WIMAX EN BOLIVIA
+========================================================= -->
+
+<section id="bolivia" class="section-padding bolivia-section">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>05 · BOLIVIA 🇧🇴</span>
+
+            <h2>
+                WiMAX en <strong>Bolivia</strong>
+            </h2>
+
+            <p>
+                En Bolivia, ENTEL ofreció históricamente un servicio
+                de Internet mediante tecnología WIMAX.
+            </p>
+
+        </div>
+
+
+        <div class="row align-items-center mt-5">
+
+            <div class="col-lg-6">
+
+                <div class="bolivia-card">
+
+                    <div class="bolivia-title">
+
+                        <i class="bi bi-flag-fill"></i>
+
+                        <h3>ENTEL WIMAX</h3>
+
+                    </div>
+
+
+                    <p>
+                        ENTEL Bolivia registró un servicio denominado
+                        <strong>Internet Wimax</strong>, basado en el
+                        estándar <strong>IEEE 802.16e</strong>.
+                    </p>
+
+                    <p>
+                        El servicio funcionaba en la frecuencia de
+                        <strong>3.5 GHz</strong> y estuvo disponible
+                        en <strong>La Paz</strong>.
+                    </p>
+
+
+                    <div class="alert alert-warning">
+
+                        <i class="bi bi-info-circle-fill"></i>
+
+                        <strong>Importante:</strong>
+
+                        ENTEL actualmente identifica este servicio como
+                        <strong>“No Vigente Comercialmente”</strong>.
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-6">
+
+                <div class="bolivia-data">
+
+                    <div class="data-item">
+
+                        <i class="bi bi-building"></i>
+
+                        <div>
+                            <small>Empresa</small>
+                            <h5>ENTEL Bolivia</h5>
+                        </div>
+
+                    </div>
+
+
+                    <div class="data-item">
+
+                        <i class="bi bi-diagram-3"></i>
+
+                        <div>
+                            <small>Estándar</small>
+                            <h5>IEEE 802.16e</h5>
+                        </div>
+
+                    </div>
+
+
+                    <div class="data-item">
+
+                        <i class="bi bi-reception-4"></i>
+
+                        <div>
+                            <small>Frecuencia</small>
+                            <h5>3.5 GHz</h5>
+                        </div>
+
+                    </div>
+
+
+                    <div class="data-item">
+
+                        <i class="bi bi-geo-alt-fill"></i>
+
+                        <div>
+                            <small>Disponibilidad registrada</small>
+                            <h5>La Paz</h5>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     EMPRESAS
+========================================================= -->
+
+<section id="empresas" class="section-padding section-gray">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>06 · EMPRESAS</span>
+
+            <h2>
+                Empresas y operadores que utilizaron WiMAX
+            </h2>
+
+            <p>
+                Durante el desarrollo comercial de WiMAX participaron
+                diferentes operadores alrededor del mundo.
+            </p>
+
+        </div>
+
+
+        <div class="row g-4 mt-4">
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="company-card">
+
+                    <div class="company-number">
+                        01
+                    </div>
+
+                    <i class="bi bi-broadcast-pin"></i>
+
+                    <h4>Clearwire / Sprint</h4>
+
+                    <p>
+                        Operadores de Estados Unidos que participaron
+                        en despliegues de Mobile WiMAX.
+                    </p>
+
+                    <span>Estados Unidos</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="company-card">
+
+                    <div class="company-number">
+                        02
+                    </div>
+
+                    <i class="bi bi-phone"></i>
+
+                    <h4>UQ Communications</h4>
+
+                    <p>
+                        Operador japonés asociado con servicios de
+                        Mobile WiMAX.
+                    </p>
+
+                    <span>Japón</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="company-card">
+
+                    <div class="company-number">
+                        03
+                    </div>
+
+                    <i class="bi bi-router"></i>
+
+                    <h4>Yota</h4>
+
+                    <p>
+                        Empresa rusa que desarrolló servicios de acceso
+                        inalámbrico utilizando WiMAX.
+                    </p>
+
+                    <span>Rusia</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="company-card">
+
+                    <div class="company-number">
+                        04
+                    </div>
+
+                    <i class="bi bi-building"></i>
+
+                    <h4>YTL Communications</h4>
+
+                    <p>
+                        Operador que implementó redes WiMAX para
+                        servicios de banda ancha.
+                    </p>
+
+                    <span>Malasia</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="company-card">
+
+                    <div class="company-number">
+                        05
+                    </div>
+
+                    <i class="bi bi-phone-vibrate"></i>
+
+                    <h4>KT / SK Telecom</h4>
+
+                    <p>
+                        Operadores de Corea del Sur relacionados con
+                        despliegues de tecnologías WiMAX móvil.
+                    </p>
+
+                    <span>Corea del Sur</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+
+                <div class="company-card special-company">
+
+                    <div class="company-number">
+                        06
+                    </div>
+
+                    <i class="bi bi-globe2"></i>
+
+                    <h4>Otros operadores</h4>
+
+                    <p>
+                        Muchos otros operadores y fabricantes participaron
+                        en proyectos WiMAX en diferentes regiones.
+                    </p>
+
+                    <span>Internacional</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     IMPORTANCIA
+========================================================= -->
+
+<section id="importancia" class="section-padding">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>07 · IMPORTANCIA</span>
+
+            <h2>
+                ¿Por qué fue importante <strong>WiMAX</strong>?
+            </h2>
+
+        </div>
+
+
+        <div class="row g-4 mt-4">
+
+            <div class="col-lg-6">
+
+                <div class="importance-card">
+
+                    <h4>
+                        <i class="bi bi-check-circle-fill"></i>
+                        Principales aportes
+                    </h4>
+
+                    <ul class="list-group list-group-flush">
+
+                        <li class="list-group-item">
+                            <i class="bi bi-wifi"></i>
+                            Permitió ofrecer banda ancha sin una conexión
+                            física hasta el usuario.
+                        </li>
+
+                        <li class="list-group-item">
+                            <i class="bi bi-broadcast"></i>
+                            Permitió cubrir áreas relativamente amplias.
+                        </li>
+
+                        <li class="list-group-item">
+                            <i class="bi bi-building"></i>
+                            Facilitó proyectos de conectividad en lugares
+                            donde el cableado podía ser complicado.
+                        </li>
+
+                        <li class="list-group-item">
+                            <i class="bi bi-phone"></i>
+                            La evolución hacia 802.16e permitió movilidad.
+                        </li>
+
+                        <li class="list-group-item">
+                            <i class="bi bi-globe"></i>
+                            Contribuyó al desarrollo de las comunicaciones
+                            inalámbricas de banda ancha.
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-lg-6">
+
+                <div class="importance-card">
+
+                    <h4>
+                        <i class="bi bi-bar-chart-fill"></i>
+                        Características destacadas
+                    </h4>
+
+
+                    <div class="progress-item">
+
+                        <div class="d-flex justify-content-between">
+                            <span>Alcance</span>
+                            <span>Amplio</span>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 90%">
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="progress-item">
+
+                        <div class="d-flex justify-content-between">
+                            <span>Movilidad</span>
+                            <span>802.16e</span>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 75%">
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="progress-item">
+
+                        <div class="d-flex justify-content-between">
+                            <span>Cobertura</span>
+                            <span>Amplia</span>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 85%">
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="progress-item">
+
+                        <div class="d-flex justify-content-between">
+                            <span>Interoperabilidad</span>
+                            <span>WiMAX Forum</span>
+                        </div>
+
+                        <div class="progress">
+                            <div class="progress-bar" style="width: 80%">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Acordeón -->
+
+        <div class="accordion mt-5" id="accordionWiMAX">
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button 
+                        class="accordion-button" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#ventajas"
+                    >
+
+                        <i class="bi bi-plus-circle me-2"></i>
+
+                        Ventajas de WiMAX
+
+                    </button>
+
+                </h2>
+
+                <div 
+                    id="ventajas" 
+                    class="accordion-collapse collapse show"
+                    data-bs-parent="#accordionWiMAX"
+                >
+
+                    <div class="accordion-body">
+
+                        <ul>
+
+                            <li>
+                                Mayor cobertura que una red Wi-Fi convencional.
+                            </li>
+
+                            <li>
+                                Conectividad inalámbrica de banda ancha.
+                            </li>
+
+                            <li>
+                                Posibilidad de utilizar infraestructura
+                                inalámbrica en zonas extensas.
+                            </li>
+
+                            <li>
+                                Evolución hacia soluciones móviles.
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                    <button 
+                        class="accordion-button collapsed" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#limitaciones"
+                    >
+
+                        <i class="bi bi-exclamation-circle me-2"></i>
+
+                        Limitaciones
+
+                    </button>
+
+                </h2>
+
+                <div 
+                    id="limitaciones" 
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionWiMAX"
+                >
+
+                    <div class="accordion-body">
+
+                        <ul>
+
+                            <li>
+                                La tecnología tuvo que competir con otras
+                                tecnologías inalámbricas y móviles.
+                            </li>
+
+                            <li>
+                                Los costos y disponibilidad de infraestructura
+                                podían variar según la región.
+                            </li>
+
+                            <li>
+                                Con el avance de LTE y otras tecnologías,
+                                muchos despliegues comerciales WiMAX dejaron
+                                de utilizarse.
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     CONCLUSIÓN
+========================================================= -->
+
+<section class="conclusion">
+
+    <div class="container text-center">
+
+        <i class="bi bi-stars conclusion-icon"></i>
+
+        <h2>
+            Conclusión
+        </h2>
+
+        <p>
+
+            WiMAX fue una tecnología importante dentro de la evolución
+            de las redes inalámbricas de banda ancha. Basada en IEEE 802.16,
+            permitió desarrollar soluciones de conectividad de largo alcance
+            y posteriormente incorporó movilidad.
+
+        </p>
+
+        <p>
+
+            Aunque actualmente muchos servicios WiMAX dejaron de estar
+            comercialmente vigentes, su desarrollo forma parte de la
+            evolución de las tecnologías de comunicación inalámbrica.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     FUENTES
+========================================================= -->
+
+<section id="fuentes" class="section-padding section-gray">
+
+    <div class="container">
+
+        <div class="section-title">
+
+            <span>08 · INVESTIGACIÓN</span>
+
+            <h2>
+                Fuentes consultadas 📚
+            </h2>
+
+        </div>
+
+
+        <div class="sources-box">
+
+            <div class="source-item">
+
+                <i class="bi bi-globe"></i>
+
+                <div>
+
+                    <h5>WiMAX Forum</h5>
+
+                    <p>
+                        Información institucional, técnica y de
+                        interoperabilidad de WiMAX.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="source-item">
+
+                <i class="bi bi-cpu"></i>
+
+                <div>
+
+                    <h5>IEEE</h5>
+
+                    <p>
+                        Información relacionada con la familia de
+                        estándares IEEE 802.16.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="source-item">
+
+                <i class="bi bi-building"></i>
+
+                <div>
+
+                    <h5>ENTEL Bolivia</h5>
+
+                    <p>
+                        Información histórica del servicio Internet Wimax
+                        ofrecido en Bolivia.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     FOOTER
+========================================================= -->
+
+<footer>
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-md-6">
+
+                <h4>
+                    <i class="bi bi-broadcast-pin"></i>
+                    WiMAX
+                </h4>
+
+                <p>
+                    Investigación sobre redes inalámbricas
+                    de banda ancha.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <hr>
+
+        <p class="text-center small mb-0">
+
+            © 2026 · Red WiMAX
+
+        </p>
+
+    </div>
+
+</footer>
+
+
+<!-- Bootstrap JavaScript -->
+<script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+</body>
+</html>
